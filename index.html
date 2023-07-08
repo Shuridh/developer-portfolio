@@ -14,32 +14,55 @@
         }
         ul li{
             list-style: none;
+            
+        }
+        nav>ul{
+            display: flex;
+        }
+
+        nav li{
+            margin-right: 50px;
+            /* display: flex; */
         }
         nav{
-            display: flex;
+            display: flex; 
+        }
+        nav a{
+           color:#474747
         }
         *{
             font-family: 'Open Sans', sans-serif; 
         }
+        .btn{
+            width: 100px;
+         height: 30px;
+         flex-shrink: 0;
+         border-radius: 5px;
+         background: #FD6E0A;
+        }
 
         .f7{
             color: #181818;
-         font-family: Open Sans;
+         
           font-size: 45px;
          font-style: normal;
          font-weight: 800;
          line-height: normal;
         }
+        .text-primary{
+            color: orange;
+        }
+        
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <h3 class="f7">Shuridh</h3>
+            <h3 class="f7">Shu<span class="text-primary">r</span>idh</h3>
             <ul>
              <li><a href="">Portfolio</a></li>
              <li><a href="">Blog</a></li>
-             <li><button>Hire me</button></li>
+             <li><button class="btn">Hire me</button></li>
             </ul>
         </nav>
 

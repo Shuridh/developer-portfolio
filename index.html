@@ -18,14 +18,24 @@
         }
         nav>ul{
             display: flex;
+            align-items: center;
         }
 
         nav li{
+           
             margin-right: 50px;
             /* display: flex; */
         }
         nav{
-            display: flex; 
+            display: flex;
+            justify-content: space-between;
+            margin: 0 200px;
+            
+            /* displa; 
+            align-items: center;
+             */
+            /* justify-content: space-between; */
+            
         }
         nav a{
            color:#474747
@@ -34,11 +44,18 @@
             font-family: 'Open Sans', sans-serif; 
         }
         .btn{
-            width: 100px;
-         height: 30px;
+            width: 200px;
+         height: 50px;
+         border: 0;
+         
          flex-shrink: 0;
-         border-radius: 5px;
+         /* border-radius: 5px; */
+         
          background: #FD6E0A;
+         color: white;
+         font-size: 17px;
+         font-weight: 700;
+         padding: 15px 35px 16px 35px;
         }
 
         .f7{
@@ -52,11 +69,17 @@
         .text-primary{
             color: orange;
         }
-        
+        .header{
+           background-color:#FFF8F3;
+        }
+        .banner{
+            padding: 30px 30px 30px 150px;
+            display: flex;
+        }
     </style>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <h3 class="f7">Shu<span class="text-primary">r</span>idh</h3>
             <ul>
@@ -65,6 +88,25 @@
              <li><button class="btn">Hire me</button></li>
             </ul>
         </nav>
+        <div class="banner">
+          <div>
+            <h3 class="ban1">Hi, I am
+
+            </h3>
+            <h1 class="ban2">Shuridh Rahman</h1>
+            <p>
+                <!--  -->
+                Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
+            </p>
+            <button class="btn">
+                Download CV
+            </button>
+            <button class="btn">
+              Contact
+            </button>
+          </div>
+          <img src="images/hardy.png" alt="" width="500px"height=600px>
+        </div>
 
     </header>
     <main>

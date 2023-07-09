@@ -71,10 +71,76 @@
         }
         .header{
            background-color:#FFF8F3;
+           background-image: url(images/header_bg.png);
+           background-repeat: no-repeat;
+           background-position: bottom right;
         }
         .banner{
-            padding: 30px 30px 30px 150px;
+            padding: 30px 30px 0px 150px;
             display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .ban1{
+            font-size: 45px;
+            color:#474747;
+            margin-bottom: 0;
+            
+        }
+        .ban2{
+            margin-top: 5px;
+            font-size: 85px;
+            font weight: 700; 
+            margin bottom: 20px
+            
+        }
+        .ban4{
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .ban3{
+            max-width: 500px;
+        }
+        main{
+            max-height: 520px;
+            max-width: 1100px;
+            margin: 0 auto;
+            
+        }
+        .about{
+            
+            padding: 131px;
+            background-color:  #FFF8F3;
+            margin: 130px 0px;
+            
+        }
+        .ban5{
+            color: #181818;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            /* width: 169px;
+            height:48px; */
+
+        }
+        .ban6{
+            /* display: flex;   */
+            color: #757575;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            
+        }
+        .info-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 179px;
+        }
+        .info{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
         }
     </style>
 </head>
@@ -89,12 +155,12 @@
             </ul>
         </nav>
         <div class="banner">
-          <div>
+          <div class="ban3">
             <h3 class="ban1">Hi, I am
 
             </h3>
             <h1 class="ban2">Shuridh Rahman</h1>
-            <p>
+            <p class="ban4">
                 <!--  -->
                 Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
             </p>
@@ -110,7 +176,30 @@
 
     </header>
     <main>
-
+     <section class="about">
+        <h3 class="ban5">About me</h3>
+        <p class="ban6">
+            I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.
+        </p>
+        <div class="info-container">
+            <div class="info">
+                <h4 class="info-title">Name</h4>
+                <p class="info-description">Shuridh Rahman</p>
+            </div>
+            <div class="info">
+                <h4 class="info-title">Email</h4>
+                <p class="info-description">info@gmail.com</p>
+            </div>
+            <div class="info">
+                <h4 class="info-title">Date of Birth</h4>
+                <p class="info-description">11 November 1987</p>
+            </div>
+            <div class="info">
+                <h4 class="info-title">From</h4>
+                <p class="info-description">Portland</p>
+            </div>
+        </div>
+     </section>
     </main>
     <footer>
 
